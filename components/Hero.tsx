@@ -58,7 +58,7 @@ const Hero = () => {
             />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi! We are Signodes club, a Iot based club which embrace both
+              Hi! We are Signodes club, a IoT based club which embrace both
               hardware and software based problems✨ .
             </p>
 

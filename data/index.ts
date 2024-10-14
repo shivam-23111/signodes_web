@@ -44,7 +44,7 @@ export const gridItems = [
     id: 4,
     title: "Achievements",
     description:
-      "Our members have won 10+ hackathons , showcasing their potential ,  we empower students to create smart solutions for real-world challenges",
+      "Our members have won 10+ hackathons,showcasing their potential,we empower students to create smart solutions for real-world challenges",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -197,7 +197,7 @@ export const workExperience = [
     socials: ["/linkedin.svg", "/mail.svg"],
     socialslinks: [
       "https://www.linkedin.com/in/mayank-deep-khare-23871640?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "hodiot@niet.co.in",
+      "mailto:hodiot@niet.co.in",
     ],
   },
   {
@@ -209,20 +209,20 @@ export const workExperience = [
     socials: ["/linkedin.svg", "/mail.svg"],
     socialslinks: [
       "https://www.linkedin.com/in/aditee-m-5841b4140?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "aditeemattoo@niet.co.in",
+      "mailto:aditeemattoo@niet.co.in",
     ],
   },
   {
     id: 3,
     title: "Prashant Kumar Signh",
-    desc: "IOT ENGINEER AR EPVI , INTERN AT FirstThing , PRESIDENT AT SIGNODES CLUB ,  EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4rd-year)",
+    desc: "IOT ENGINEER AT EPVI , INTERN AT FirstThing , PRESIDENT AT SIGNODES CLUB ,  EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4rd-year)",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "prashant.jpeg",
     socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
     socialslinks: [
       "https://github.com/Prashant9876",
       "https://www.linkedin.com/in/prashant74887?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "",
+      "mailto:0211csio010@niet.co.in",
     ],
   },
   {
@@ -233,9 +233,9 @@ export const workExperience = [
     thumbnail: "amy.jpeg",
     socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
     socialslinks: [
-      "",
+      "https://github.com/Amiya200",
       "https://www.linkedin.com/in/amiya-krishna-gupta-b7635423b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "",
+      "mailTo:0211csio002@niet.co.in",
     ],
   },
   // {
@@ -256,7 +256,7 @@ export const workExperience = [
     socialslinks: [
       "https://github.com/Emiwine",
       "http://www.linkedin.com/in/piyushjha2506",
-      "piyushjha416@gmail.com",
+      "mailTo:piyushjha416@gmail.com",
     ],
   },
   {
@@ -269,7 +269,7 @@ export const workExperience = [
     socialslinks: [
       "https://github.com/Anonymousurfer08",
       "https://www.linkedin.com/in/aryan-srivastav-b3a29524b/",
-      "aryansrivastavone@gmail.com",
+      "mailTo:aryansrivastavone@gmail.com",
     ],
   },
   {
@@ -282,7 +282,7 @@ export const workExperience = [
     socialslinks: [
       "https://github.com/Sumesh-skr",
       "https://www.linkedin.com/in/sumesh-skr",
-      "0221csiot105@niet.co.in",
+      "mailTo:0221csiot105@niet.co.in",
     ],
   },
   {
@@ -292,7 +292,11 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "rishi.jpeg",
     socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
-    socialslinks: ["https://github.com/Sumesh-skr"],
+    socialslinks: [
+      "",
+      "https://www.linkedin.com/in/rishi-rih?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "mailTo:0221csiot091@niet.co.in",
+    ],
   },
 ];
 
@@ -300,9 +304,13 @@ export const socialMedia = [
   {
     id: 1,
     img: "/insta.svg",
+    socialslinks: [
+      "https://www.instagram.com/niet_signodes?igsh=dDFzOXkwNHU5dWM=",
+    ],
   },
   {
     id: 3,
     img: "/linkedin.svg",
+    socialslinks: ["https://www.linkedin.com/company/nietsignodes/"],
   },
 ];

@@ -143,14 +143,14 @@ function Events() {
                       </motion.p>
                     </div>
 
-                    <motion.a
+                    {/* <motion.a
                       layoutId={`button-${active.title}-${id}`}
                       href={active.ctaLink}
                       target="_blank"
                       className="px-4 py-3 text-sm rounded-full font-bold bg-black-100 text-white"
                     >
                       {active.ctaText}
-                    </motion.a>
+                    </motion.a> */}
                   </div>
                   <div className="pt-4 relative px-4">
                     <motion.div
