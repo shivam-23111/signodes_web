@@ -122,7 +122,7 @@ function Events() {
               <motion.div
                 layoutId={`card-${active.title}-${id}`}
                 ref={ref}
-                className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-white dark:bg-black-100 sm:rounded-3xl overflow-hidden"
+                className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%] flex flex-col bg-white dark:bg-black-100 sm:rounded-3xl overflow-hidden"
               >
                 <motion.div layoutId={`image-${active.title}-${id}`}>
                   <Image
@@ -167,7 +167,7 @@ function Events() {
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
-                      className="text-neutral-600 text-xs md:text-sm lg:text-base h-40 md:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto dark:text-neutral-400 [mask:linear-gradient(to_bottom,white,white,transparent)] [scrollbar-width:none] [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch]"
+                      className="text-neutral-600 text-xs md:text-sm lg:text-base h-40 md:h-fit pb-2 flex flex-col items-start gap-4  dark:text-neutral-400 "
                     >
                       {typeof active.content === "function"
                         ? active.content()
@@ -187,7 +187,7 @@ function Events() {
               onClick={() => setActive(card)}
               className="p-4 flex flex-col md:flex-row justify-between items-center hover:bg-neutral-50 dark:hover:bg-[#001861] rounded-xl cursor-pointer"
             >
-              <div className="flex gap-4 flex-col md:flex-row ">
+              <div className="flex gap-4 items-center justify-center flex-col md:flex-row ">
                 <motion.div layoutId={`image-${card.title}-${id}`}>
                   <Image
                     width={100}
@@ -214,7 +214,7 @@ function Events() {
               </div>
               <motion.button
                 layoutId={`button-${card.title}-${id}`}
-                className="px-4 py-2 text-sm rounded-full font-bold bg-gray-100 hover:bg-green-500 hover:text-white text-black mt-4 md:mt-0"
+                className="px-4 py-2 text-sm rounded-full font-bold bg-gray-100 hover:bg-white hover:text-blue-950 text-black mt-4 md:mt-0"
               >
                 {card.ctaText}
               </motion.button>
@@ -265,6 +265,47 @@ export const CloseIcon = () => {
 
 // cards
 
+// const cards = [
+//   {
+//     description: "DETAILS COMING SOON",
+//     title: "IOTRON",
+//     src: "/iotron.png",
+//     ctaText: "Check",
+//     ctaLink: "",
+//     content: () => {
+//       return (
+//         <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
+//       );
+//     },
+//   },
+//   {
+//     description: "DETAILS COMING SOON",
+//     title: "XMBLE",
+//     src: "/xmble.png",
+//     ctaText: "Check",
+//     ctaLink: "",
+//     content: () => {
+//       return (
+//         <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
+//       );
+//     },
+//   },
+//   {
+//     description: "DETAILS COMING SOON",
+//     title: "IOT NEXUS",
+//     src: "/nexus.jpeg",
+//     ctaText: "Check",
+//     ctaLink: "",
+//     content: () => {
+//       return (
+//         <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
+//       );
+//     },
+//   },
+// ];
+
+// cards
+
 const cards = [
   {
     description:
@@ -275,10 +316,10 @@ const cards = [
     ctaLink: "",
     content: () => {
       return (
-        <p className="text-2xl font-mono text-white">
+        <p className="text-lg font-mono text-white">
           IoTRON is an annual winter event designed to foster creativity and
           innovation among students from diverse disciplines in the field of
-          hardware development, centered around the Internet of Things-IOT.
+          hardware development, centered around the Internet of Things-IoT.
           The event kicks off with a workshop introducing themes, tools, and
           technologies, followed by team formation that encourages
           interdisciplinary collaboration. Participants gain access to
@@ -299,7 +340,7 @@ const cards = [
     ctaLink: "",
     content: () => {
       return (
-        <p className="text-2xl font-mono text-white">
+        <p className="text-lg font-mono text-white">
           XMBLE is a summer event focused on advancing hardware innovation,
           challenging students to push the boundaries of technology through
           hands-on project development. The event begins with an opening
@@ -323,7 +364,7 @@ const cards = [
     ctaLink: "",
     content: () => {
       return (
-        <p className="text-2xl font-mono text-white">
+        <p className="text-lg font-mono text-white">
           IoT NEXUS The Introduction to IoT workshop, held at NIET College,
           was an 40-hour hands-on session for 2nd-year engineering students. The
           event covered the fundamentals of IoT, including key components like
