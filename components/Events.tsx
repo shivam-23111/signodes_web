@@ -278,7 +278,7 @@ const cards = [
         <p className="text-2xl font-mono text-white">
           IoTRON is an annual winter event designed to foster creativity and
           innovation among students from diverse disciplines in the field of
-          hardware development, centered around the Internet of Things (IoT).
+          hardware development, centered around the Internet of Things-IOT.
           The event kicks off with a workshop introducing themes, tools, and
           technologies, followed by team formation that encourages
           interdisciplinary collaboration. Participants gain access to
@@ -324,7 +324,7 @@ const cards = [
     content: () => {
       return (
         <p className="text-2xl font-mono text-white">
-          IoT NEXUS The "Introduction to IoT" workshop, held at NIET College,
+          IoT NEXUS The Introduction to IoT workshop, held at NIET College,
           was an 40-hour hands-on session for 2nd-year engineering students. The
           event covered the fundamentals of IoT, including key components like
           sensors, actuators, and microcontrollers. Students learned to program
