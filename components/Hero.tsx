@@ -62,7 +62,7 @@ const Hero = () => {
               hardware and software based problems✨ .
             </p>
 
-            <a href="#events">
+            <a href="/events">
               <MagicButton
                 title="Explore Events"
                 icon={<FaLocationArrow />}

@@ -48,17 +48,17 @@ function Events() {
 
         {/**
          *  UI: grid
-         *  change bg color to bg-black-100 and reduce grid color from
+         *  change bg color to bg-[#000033] and reduce grid color from
          *  0.2 to 0.03
          */}
         <div
-          className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+          className="h-screen w-full dark:bg-[#000033] bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
         >
           {/* Radial gradient for the container to give a faded look */}
           <div
-            // chnage the bg to bg-black-100, so it matches the bg color and will blend in
-            className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
+            // chnage the bg to bg-[#000033], so it matches the bg color and will blend in
+            className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#000033]
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
           />
         </div>
@@ -83,7 +83,7 @@ function Events() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black/20 h-full w-full z-10"
+              className="fixed inset-0 bg-[#000033] h-full w-full z-10"
             />
           )}
         </AnimatePresence>
@@ -113,7 +113,7 @@ function Events() {
               <motion.div
                 layoutId={`card-${active.title}-${id}`}
                 ref={ref}
-                className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl overflow-hidden"
+                className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col  dark:bg-neutral-900 sm:rounded-3xl overflow-hidden bg-[#000033]"
               >
                 <motion.div layoutId={`image-${active.title}-${id}`}>
                   <Image
@@ -143,16 +143,16 @@ function Events() {
                       </motion.p>
                     </div>
 
-                    {/* <motion.a
+                    <motion.a
                       layoutId={`button-${active.title}-${id}`}
                       href={active.ctaLink}
                       target="_blank"
-                      className="px-4 py-3 text-sm rounded-full font-bold bg-black-100 text-white"
+                      className="px-4 py-3 text-sm rounded-full font-bold bg-[#000033] text-white"
                     >
                       {active.ctaText}
-                    </motion.a> */}
+                    </motion.a>
                   </div>
-                  <div className="pt-4 relative px-4">
+                  <div className="pt-4 relative px-4 bg-[#000033]">
                     <motion.div
                       layout
                       initial={{ opacity: 0 }}
@@ -170,7 +170,7 @@ function Events() {
             </div>
           ) : null}
         </AnimatePresence>
-        <ul className="max-w-2xl mx-auto w-full gap-4">
+        <ul className="max-w-2xl mx-auto w-full gap-4 ">
           {cards.map((card, index) => (
             <motion.div
               layoutId={`card-${card.title}-${id}`}
@@ -315,10 +315,7 @@ const cards = [
           technologies, followed by team formation that encourages
           interdisciplinary collaboration. Participants gain access to
           mentorship from academia and industry as they work on their projects
-          over several weeks. The event culminates in a final presentation where
-          teams showcase their work to a panel of judges, leading to an awards
-          ceremony that recognizes outstanding projects across various
-          categories.
+          over several weeks.
         </p>
       );
     },
@@ -339,10 +336,7 @@ const cards = [
           open to students from all disciplines. Participants engage in
           technical workshops to build skills in hardware design and prototyping
           before entering an intensive project development phase that includes
-          regular check-ins and progress reviews. The culmination of the event
-          is Demo Day, where teams showcase their prototypes to judges and
-          attendees, followed by an award ceremony that recognizes outstanding
-          projects and innovative solutions.
+          regular check-ins and progress reviews. 
         </p>
       );
     },
@@ -361,9 +355,7 @@ const cards = [
           event covered the fundamentals of IoT, including key components like
           sensors, actuators, and microcontrollers. Students learned to program
           Arduino, explored circuit simulation using Tinkercad, and developed
-          basic IoT projects. The workshop provided a practical understanding of
-          how IoT works, equipping participants with the skills to create their
-          own IoT solutions.
+          basic IoT projects.
         </p>
       );
     },
