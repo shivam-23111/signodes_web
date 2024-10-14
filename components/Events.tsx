@@ -263,78 +263,42 @@ export const CloseIcon = () => {
   );
 };
 
-
-
 // cards
 
 const cards = [
   {
-    description: "IoTRON is an annual winter event",
+    description: "DETAILS COMING SOON",
     title: "IOTRON",
     src: "/iotron.png",
     ctaText: "Check",
     ctaLink: "",
     content: () => {
-      return ( 
-        <p className="text-lg font-mono text-white">
-          IoTRON is an annual winter event designed to foster creativity and
-          innovation among students from diverse disciplines in the field of
-          hardware development, centered around the Internet of Things (IoT).
-          The event kicks off with a workshop introducing themes, tools, and
-          technologies, followed by team formation that encourages
-          interdisciplinary collaboration. Participants gain access to
-          mentorship from academia and industry as they work on their projects
-          over several weeks. The event culminates in a final presentation where
-          teams showcase their work to a panel of judges, leading to an awards
-          ceremony that recognizes outstanding projects across various
-          categories.
-        </p>
+      return (
+        <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
       );
     },
   },
   {
-    description:
-      " XMBLE is a summer event focused on advancing hardware innovation",
+    description: "DETAILS COMING SOON",
     title: "XMBLE",
     src: "/xmble.png",
     ctaText: "Check",
     ctaLink: "",
     content: () => {
       return (
-        <p className="text-lg font-mono text-white">
-          XMBLE is a summer event focused on advancing hardware innovation,
-          challenging students to push the boundaries of technology through
-          hands-on project development. The event begins with an opening
-          ceremony that introduces the themes, followed by team registration
-          open to students from all disciplines. Participants engage in
-          technical workshops to build skills in hardware design and prototyping
-          before entering an intensive project development phase that includes
-          regular check-ins and progress reviews. The culmination of the event
-          is Demo Day, where teams showcase their prototypes to judges and
-          attendees, followed by an award ceremony that recognizes outstanding
-          projects and innovative solutions.
-        </p>
+        <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
       );
     },
   },
   {
-    description: "The Introduction to IoT workshop",
+    description: "DETAILS COMING SOON",
     title: "IOT NEXUS",
     src: "/nexus.jpeg",
     ctaText: "Check",
     ctaLink: "",
     content: () => {
       return (
-        <p className="text-lg font-mono text-white">
-          IoT NEXUS The "Introduction to IoT" workshop, held at NIET College,
-          was an 40-hour hands-on session for 2nd-year engineering students. The
-          event covered the fundamentals of IoT, including key components like
-          sensors, actuators, and microcontrollers. Students learned to program
-          Arduino, explored circuit simulation using Tinkercad, and developed
-          basic IoT projects. The workshop provided a practical understanding of
-          how IoT works, equipping participants with the skills to create their
-          own IoT solutions.
-        </p>
+        <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
       );
     },
   },
