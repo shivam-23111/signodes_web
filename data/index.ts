@@ -248,8 +248,8 @@ export const workExperience = [
   // },
   {
     id: 6,
-    title: "Piyush Kumar",
-    desc: "EVENT HEAD AT SIGNODES CLUB , EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4rd-year)",
+    title: "Piyush Kumar Jha",
+    desc: "EVENT HEAD AT SIGNODES CLUB , EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4th-year)",
     className: "md:col-span-2",
     thumbnail: "piyush.jpeg",
     socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
@@ -275,7 +275,7 @@ export const workExperience = [
   {
     id: 8,
     title: "Sumesh Sarkar",
-    desc: "VICE-PRESIDENT AT SIGNODES CLUB ,CSE-IOT (3rd-year), HACKX-NIET'23 WINNER , HACKFEEST HACKATHON AT GEEKS-FOR-GEEKS PATICIPANT , CSE-IOT (3rd-year)",
+    desc: "VICE-PRESIDENT AT SIGNODES CLUB , SECOND RUNNER-UP IOTRON 2.0 , HACKX-NIET'23 WINNER , HACKFEEST HACKATHON AT GEEKS-FOR-GEEKS PATICIPANT , CSE-IOT (3rd-year)",
     className: "md:col-span-2",
     thumbnail: "sumesh.jpeg",
     socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
