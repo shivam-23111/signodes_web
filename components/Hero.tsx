@@ -22,15 +22,15 @@ const Hero = () => {
         </div>
         <div className="flex justify-center relative my-10 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center bg-white rounded-xl p-2">
               <div className="flex space-x-4">
-                <div className="w-28 md:w-28 p-2 flex items-center justify-center rounded-2xl">
+                <div className="w-28 md:w-28 p-2 flex items-center justify-center rounded-2xl ">
                   <Image
                     src="/logo5.png"
                     alt="Image 1"
                     width={300}
                     height={300}
-                    className="rounded-lg shadow-lg"
+                    className="rounded-lg"
                   />
                 </div>
                 <div className="w-28 md:w-28 bg-white p-2 flex items-center justify-center rounded-2xl">
@@ -39,12 +39,11 @@ const Hero = () => {
                     alt="Image 2"
                     width={300}
                     height={300}
-                    className="rounded-lg shadow-lg"
+                    className="rounded-lg "
                   />
                 </div>
               </div>
             </div>
-            <br />
             <TextGenerateEffect
               words="Welcoming to our Signodes club at NIET"
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
