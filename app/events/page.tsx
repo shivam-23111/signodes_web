@@ -4,6 +4,12 @@ import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import Link from "next/link";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function TracingBeamDemo() {
   return (
@@ -40,16 +46,6 @@ const EventsData = [
     description: (
       <>
         <div>
-          <button
-            className="px-6 py-3.5 text-black-100 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg"
-            type="button"
-          >
-            <Link href="#" className="font-bold">
-              Register Now
-            </Link>
-          </button>
-          <br />
-          <br />
           <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
             About{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
@@ -70,90 +66,228 @@ const EventsData = [
             problem-solving skills.
           </p>
           <div>
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger>
+                  <h5 className="text-xl dark:text-pink-500">
+                    Selection Creteria
+                  </h5>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <ul className="space-y-1 text-gray-500 list-inside dark:text-gray-400">
+                    <li className="flex items-center text-sm md:text-lg text-white text-justify font-mono">
+                      <svg
+                        className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                      </svg>
+                      Register for the event.
+                    </li>
+                    <li className="flex items-center text-md md:text-lg text-white">
+                      <svg
+                        className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                      </svg>
+                      Build projects based on the specific theme.
+                    </li>
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger>
+                  <h5 className="text-xl dark:text-pink-500">Themes</h5>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <ul className="space-y-1 text-gray-500 list-inside dark:text-gray-400">
+                    <li className="flex items-center text-sm md:text-lg text-white text-justify font-mono">
+                      <svg
+                        className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                      </svg>
+                      Line Folowing Car
+                    </li>
+                    <li className="flex items-center text-md md:text-lg text-white">
+                      <svg
+                        className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                      </svg>
+                      Weather Montitoring System
+                    </li>
+                    <li className="flex items-center text-md md:text-lg text-white">
+                      <svg
+                        className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                      </svg>
+                      Sustainabale Development Goals
+                    </li>
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger>
+                  {" "}
+                  <h5 className="text-xl dark:text-pink-500">
+                    Perks and Certifications
+                  </h5>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <div>
+                    <ul className=" space-y-1 text-pink-300 ">
+                      <li className=" text-md md:text-lg text-white">
+                        🥇With a total Prize Pool of{" "}
+                        <span className="text-[#85a7ff]">
+                          ₹10,000 for top rankers,
+                        </span>{" "}
+                        and exciting goodies for every participant in the event.
+                      </li>
+                      <li className=" text-md md:text-lg text-white">
+                        🥇{" "}
+                        <span className="text-[#85a7ff]">
+                          certificate of achievement
+                        </span>{" "}
+                        will be awarded to the winner.
+                      </li>
+                      <li className=" text-md md:text-lg text-white">
+                        🥇Certificates of participation will be provided to
+                        everyone.
+                      </li>
+                    </ul>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger>
+                  {" "}
+                  <h5 className="text-xl dark:text-pink-500">
+                    Faculty Cordinators
+                  </h5>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <div>
+                    <ul className="max-w-md space-y-1 text-pink-300 ">
+                      <li className="text-md md:text-lg">
+                        <div className="text-white font-bold text-lg">
+                          Mayank Deep Khare
+                        </div>
+                        <p className="text-sm md:text-base text-gray-300 italic">
+                          HOD,CSE-IoT
+                        </p>
+                      </li>
+                      <li className="text-md md:text-lg">
+                        <div className="text-white font-bold text-lg">
+                          Aditte Mattoo
+                        </div>
+                        <p className="text-sm md:text-base text-gray-300 italic">
+                          DEPUTY HOD,CSE M.TECH-INTEGRATED
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger>
+                  {" "}
+                  <h5 className="text-xl dark:text-pink-500">
+                    Student Cordinator
+                  </h5>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <div>
+                    <ul className="max-w-md space-y-1 text-pink-300 ">
+                      <li className="text-md md:text-lg">
+                        <div className="text-white font-bold text-lg">
+                          Prashant Kumar Singh
+                        </div>
+                        <p className="text-sm md:text-base text-gray-300 italic">
+                          President
+                        </p>
+                      </li>
+                      <li className="text-md md:text-lg">
+                        <div className="text-white font-bold text-lg">
+                          Sumesh Sarkar
+                        </div>
+                        <p className="text-sm md:text-base text-gray-300 italic">
+                          Vice-President
+                        </p>
+                      </li>
+                      <li className="text-md md:text-lg">
+                        <div className="text-white font-bold text-lg">
+                          Rishi Ranjan
+                        </div>
+                        <p className="text-sm md:text-base text-gray-300 italic">
+                          Vice-President
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger>
+                  {" "}
+                  <h5 className="text-xl dark:text-pink-500">Venue</h5>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <div>
+                    <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                      <li className=" text-md md:text-lg text-white ">
+                        Idea Lab, Ground Floor, B Block
+                      </li>
+                      <li className=" text-md md:text-lg text-white">
+                        25th October, 2:00 pm Onwards
+                      </li>
+                    </ul>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
             <br />
-            <h2 className="mb-2 text-2xl font-semibold text-gray-900 dark:text-pink-300 ">
-              Selection Creteria
-            </h2>
-            <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
-              <li className="flex items-center text-sm md:text-lg text-white text-justify font-mono">
-                <svg
-                  className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                Register for the event
-              </li>
-              <li className="flex items-center text-md md:text-lg text-white">
-                <svg
-                  className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                Build projects based on the specific theme
-              </li>
-            </ul>
-          </div>
-          <br />
-          <div>
-            <br />
-            <h2 className="mb-2 text-2xl font-semibold text-gray-900 dark:text-pink-300">
-              Perks and Certifications
-            </h2>
-            <ul className="max-w-md space-y-1 text-pink-300 ">
-              <li className=" text-md md:text-lg text-white">
-                🥇{" "}
-                <span className="font-bold text-[#85a7ff]">
-                  certificate of achievement
-                </span>{" "}
-                will be awarded to the winner
-              </li>
-              <li className=" text-md md:text-lg text-white">
-                🥇Certificates of participation will be provided to everyone
-              </li>
-            </ul>
-          </div>
-          <br />
-          <h2 className="mb-2 text-2xl font-semibold text-justify text-gray-900 dark:text-pink-300">
-            Faculty Coordinators
-          </h2>
-          <div>
-            <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400 text-justify ">
-              <li className=" text-md md:text-lg text-white">
-                🥏Mr. Mayank Deep Khare
-              </li>
-              <li className=" text-md md:text-lg text-white">
-                🥏Ms. Aditee Mattoo
-              </li>
-            </ul>
-          </div>
-          <br />
-          <h2 className="mb-2 text-2xl font-semibold font-mono text-gray-900 dark:text-pink-300">
-            Venue
-          </h2>
-          <div>
-            <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-              <li className=" text-md md:text-lg text-white ">
-                🚀Idea Lab, Ground Floor, B Block
-              </li>
-              <li className=" text-md md:text-lg text-white">
-                🚀25th October, 2:00 pm Onwards
-              </li>
-            </ul>
           </div>
           <br />
           <button
             className="px-6 py-3.5 text-black-100 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg"
             type="button"
           >
-            <Link href="#" className="font-bold">
+            <Link
+              href="https://forms.office.com/r/a2z5bahnUC"
+              target="_blank"
+              className="font-bold"
+            >
               Register Now
             </Link>
           </button>
