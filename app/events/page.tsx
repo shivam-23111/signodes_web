@@ -69,7 +69,7 @@ const EventsData = [
             <Accordion type="single" collapsible>
               <AccordionItem value="item-1">
                 <AccordionTrigger>
-                  <h5 className="text-xl dark:text-pink-500">
+                  <h5 className="text-xl dark:text-purple">
                     Selection Creteria
                   </h5>
                 </AccordionTrigger>
@@ -106,7 +106,7 @@ const EventsData = [
             <Accordion type="single" collapsible>
               <AccordionItem value="item-1">
                 <AccordionTrigger>
-                  <h5 className="text-xl dark:text-pink-500">Themes</h5>
+                  <h5 className="text-xl dark:text-purple">Themes</h5>
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="space-y-1 text-gray-500 list-inside dark:text-gray-400">
@@ -154,7 +154,7 @@ const EventsData = [
               <AccordionItem value="item-1">
                 <AccordionTrigger>
                   {" "}
-                  <h5 className="text-xl dark:text-pink-500">
+                  <h5 className="text-xl dark:text-purple">
                     Perks and Certifications
                   </h5>
                 </AccordionTrigger>
@@ -188,7 +188,7 @@ const EventsData = [
               <AccordionItem value="item-1">
                 <AccordionTrigger>
                   {" "}
-                  <h5 className="text-xl dark:text-pink-500">
+                  <h5 className="text-xl dark:text-purple">
                     Faculty Cordinators
                   </h5>
                 </AccordionTrigger>
@@ -220,7 +220,7 @@ const EventsData = [
               <AccordionItem value="item-1">
                 <AccordionTrigger>
                   {" "}
-                  <h5 className="text-xl dark:text-pink-500">
+                  <h5 className="text-xl dark:text-purple">
                     Student Cordinator
                   </h5>
                 </AccordionTrigger>
@@ -260,7 +260,7 @@ const EventsData = [
               <AccordionItem value="item-1">
                 <AccordionTrigger>
                   {" "}
-                  <h5 className="text-xl dark:text-pink-500">Venue</h5>
+                  <h5 className="text-xl dark:text-purple">Venue</h5>
                 </AccordionTrigger>
                 <AccordionContent>
                   <div>
