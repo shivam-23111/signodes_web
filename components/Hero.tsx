@@ -8,7 +8,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <div className="pb-14 pt-[5rem] lg:flex-row" id="home">
+      <div className="pb-14 pt-[6rem] lg:flex-row" id="home">
         <div>
           <Spotlight
             className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -20,15 +20,14 @@ const Hero = () => {
           />
           <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
         </div>
-        <div className="flex justify-center relative my-20 z-10">
+        <div className="flex justify-center relative my-10 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center">
               <div className="flex space-x-4">
                 <div className="w-28 md:w-28 p-2 flex items-center justify-center rounded-2xl">
                   <Image
-                    src="/logo2.jpeg"
+                    src="/logo5.png"
                     alt="Image 1"
-                    layout="responsive"
                     width={300}
                     height={300}
                     className="rounded-lg shadow-lg"
@@ -36,9 +35,8 @@ const Hero = () => {
                 </div>
                 <div className="w-28 md:w-28 bg-white p-2 flex items-center justify-center rounded-2xl">
                   <Image
-                    src="/logo.png"
+                    src="/logo3.png"
                     alt="Image 2"
-                    layout="responsive"
                     width={300}
                     height={300}
                     className="rounded-lg shadow-lg"

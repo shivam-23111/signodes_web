@@ -202,7 +202,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Addite Matttoo",
+    title: "Aditee Mattoo",
     desc: "FACULTY COORDINATOR , DEPUTY H.O.D CSE-M.TECH INTEGRATED",
     className: "md:col-span-2",
     thumbnail: "aditee-mam.jpeg",
