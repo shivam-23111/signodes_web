@@ -311,7 +311,7 @@ const EventsData = [
             XMBLE
           </span>{" "}
         </h4>
-        <p className="text-sm md:text-lg font-mono">
+        <p className="text-md md:text-lg">
           XMBLE is a summer event focused on advancing hardware innovation,
           challenging students to push the boundaries of technology through
           hands-on project development. The event begins with an opening
@@ -343,7 +343,7 @@ const EventsData = [
             IoT NEXUS
           </span>{" "}
         </h4>
-        <p className="text-sm md:text-lg font-mono">
+        <p className="text-md md:text-lg">
           IoT NEXUS The Introduction to IoT workshop, held at NIET College, was
           an 40-hour hands-on session for 2nd-year engineering students. The
           event covered the fundamentals of IoT, including key components like
@@ -372,7 +372,7 @@ const EventsData = [
             IoTRON
           </span>{" "}
         </h4>
-        <p className="text-sm md:text-lg font-mono">
+        <p className="text-md md:text-lg">
           IoTRON is an annual winter event designed to foster creativity and
           innovation among students from diverse disciplines in the field of
           hardware development, centered around the Internet of Things (IoT).
