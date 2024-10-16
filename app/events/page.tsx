@@ -46,7 +46,7 @@ const EventsData = [
               IoTRON 3.0
             </span>{" "}
           </h4>
-          <p className="text-lg text-justify font-mono">
+          <p className="text-lg font-mono">
             Organized by Signodes, it is an annual themed hardware project
             exhibition and competition that attracts participants from diverse
             branches it empowers students to develop unique & impactful ideas
