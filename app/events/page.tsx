@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function TracingBeamDemo() {
   return (
-    <TracingBeam className="px-10">
+    <TracingBeam className="p-10">
       <div className="max-w-2xl mx-auto antialiased py-4 relative ">
         {EventsData.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
