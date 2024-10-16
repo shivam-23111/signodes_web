@@ -36,35 +36,116 @@ export default function TracingBeamDemo() {
 
 const EventsData = [
   {
-    title: "Ongoing event title",
+    title: "IoTRON 3.0",
     description: (
       <>
         <div>
-          <p className="text-lg text-justify">This is the description</p>
+          <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+            About{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+              IoTRON 3.0
+            </span>{" "}
+          </h4>
+          <p className="text-lg text-justify font-mono">
+            Organized by Signodes, it is an annual themed hardware project
+            exhibition and competition that attracts participants from diverse
+            branches it empowers students to develop unique & impactful ideas
+            and showcase them to a broad audience. Focused on innovation within
+            specific themes, the event encourages students to develop IoT-based
+            solutions using key technologies such as sensors, microcontrollers,
+            and cloud platforms. Participants will showcase their projects,
+            applying real-world IoT concepts to address challenges. Winners will
+            receive exciting prizes and the opportunity to pitch their ideas at
+            higher levels, promoting creativity, technical expertise, and
+            problem-solving skills.
+          </p>
+          <div>
+            <br />
+            <h2 className="mb-2 text-2xl font-semibold text-justify font-mono text-gray-900 dark:text-pink-300 ">
+              Selection Creteria
+            </h2>
+            <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+              <li className="flex items-center text-lg text-white text-justify font-mono">
+                <svg
+                  className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                </svg>
+                Register for the event
+              </li>
+              <li className="flex items-center text-lg text-white font-mono">
+                <svg
+                  className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                </svg>
+                Build projects based on the specific theme
+              </li>
+            </ul>
+          </div>
           <br />
-          <button>
-            <Link
-              href="#"
-              className="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
+          <div>
+            <br />
+            <h2 className="mb-2 text-2xl font-semibold font-mono text-gray-900 dark:text-pink-300">
+              Perks and Certifications
+            </h2>
+            <ul className="max-w-md space-y-1 text-pink-300 font-mono">
+              <li className=" text-lg text-white font-mono">
+                🥇{" "}
+                <span className="font-extrabold text-[#85a7ff]">
+                  certificate of achievement
+                </span>{" "}
+                will be awarded to the winner
+              </li>
+              <li className="flex items-center text-lg text-white font-mono">
+                🥇Certificates of participation will be provided to everyone
+              </li>
+            </ul>
+          </div>
+          <br />
+          <h2 className="mb-2 text-2xl font-semibold text-justify font-mono text-gray-900 dark:text-pink-300">
+            Faculty Coordinators
+          </h2>
+          <div>
+            <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400 text-justify font-mono">
+              <li className="flex items-center text-lg text-white font-mono">
+                🥏Mr. Mayank Deep Khare
+              </li>
+              <li className="flex items-center text-lg text-white font-mono">
+                🥏Ms. Aditee Mattoo
+              </li>
+            </ul>
+          </div>
+          <br />
+          <h2 className="mb-2 text-2xl font-semibold font-mono text-gray-900 dark:text-pink-300">
+            Venue
+          </h2>
+          <div>
+            <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400 text-justify font-mono">
+              <li className="flex items-center text-lg text-white font-mono">
+                🚀Idea Lab, Ground Floor, B Block
+              </li>
+              <li className="flex items-center text-lg text-white font-mono">
+                🚀25th October, 2:00 pm Onwards
+              </li>
+            </ul>
+          </div>
+          <br />
+          <button className="inline-flex items-center text-white text-lg bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg px-5 py-2.5 text-center me-2 mb-2">
+            <Link href="#" className="">
               Register Now
-              <svg
-                className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
-              </svg>
             </Link>
           </button>
+          <br />
+          <br />
         </div>
       </>
     ),
@@ -77,7 +158,13 @@ const EventsData = [
     title: "XMBLE is a summer event focused on advancing hardware innovation",
     description: (
       <>
-        <p className="text-lg text-justify">
+        <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          About{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+            XMBLE
+          </span>{" "}
+        </h4>
+        <p className="text-lg text-justify font-mono">
           XMBLE is a summer event focused on advancing hardware innovation,
           challenging students to push the boundaries of technology through
           hands-on project development. The event begins with an opening
@@ -90,6 +177,8 @@ const EventsData = [
           attendees, followed by an award ceremony that recognizes outstanding
           projects and innovative solutions.
         </p>
+        <br />
+        <br />
       </>
     ),
     badge: "Past Event",
@@ -101,7 +190,13 @@ const EventsData = [
     title: "IoT NEXUS The Introduction to IoT workshop",
     description: (
       <>
-        <p className="text-lg text-justify">
+        <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          About{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+            IoT NEXUS
+          </span>{" "}
+        </h4>
+        <p className="text-lg text-justify font-mono">
           IoT NEXUS The Introduction to IoT workshop, held at NIET College, was
           an 40-hour hands-on session for 2nd-year engineering students. The
           event covered the fundamentals of IoT, including key components like
@@ -111,6 +206,8 @@ const EventsData = [
           how IoT works, equipping participants with the skills to create their
           own IoT solutions.
         </p>
+        <br />
+        <br />
       </>
     ),
     badge: "Past Event",
@@ -122,7 +219,13 @@ const EventsData = [
     title: "IoTRON is an annual winter event designed to foster creativity",
     description: (
       <>
-        <p className="text-lg text-justify">
+        <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          About{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+            IoTRON
+          </span>{" "}
+        </h4>
+        <p className="text-lg text-justify font-mono">
           IoTRON is an annual winter event designed to foster creativity and
           innovation among students from diverse disciplines in the field of
           hardware development, centered around the Internet of Things (IoT).
@@ -135,6 +238,8 @@ const EventsData = [
           ceremony that recognizes outstanding projects across various
           categories.
         </p>
+        <br />
+        <br />
       </>
     ),
     badge: "Past Event",
