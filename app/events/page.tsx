@@ -206,7 +206,7 @@ const EventsData = [
                       </li>
                       <li className="text-md md:text-lg">
                         <div className="text-white font-bold text-lg">
-                          Aditte Mattoo
+                          Aditee Mattoo
                         </div>
                         <p className="text-sm md:text-base text-gray-300 italic">
                           DEPUTY HOD,CSE M.TECH-INTEGRATED
