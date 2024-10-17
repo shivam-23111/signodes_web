@@ -12,7 +12,7 @@ const Experience = () => {
         <span className="text-purple">Signodes</span>
       </h1>
 
-      <div className="w-full mt-10 grid lg:grid-cols-4 grid-cols-1 gap-10">
+      <div className="w-full mt-5 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (
           <Button
             key={card.id}
@@ -35,7 +35,7 @@ const Experience = () => {
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}
-                className="lg:w-32 md:w-20 w-16"
+                className="lg:w-32 md:w-20"
               />
               <div className="lg:ms-5">
                 <h1 className="text-start text-xl md:text-2xl font-bold">
@@ -69,6 +69,6 @@ const Experience = () => {
 
 export default Experience;
 
-
-
-{/* <a href="mailto:signodes_iot@niet.co.in" className="mb-5"></a> */}
+{
+  /* <a href="mailto:signodes_iot@niet.co.in" className="mb-5"></a> */
+}
