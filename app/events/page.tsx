@@ -13,7 +13,7 @@ import {
 
 export default function TracingBeamDemo() {
   return (
-    <TracingBeam className="p-10">
+    <TracingBeam className="px-10">
       <div className="max-w-2xl mx-auto antialiased py-4 relative ">
         {EventsData.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
@@ -279,119 +279,37 @@ const EventsData = [
             <br />
           </div>
           <br />
-          <button
-            className="px-6 py-3.5 text-black-100 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg"
-            type="button"
-          >
-            <Link
-              href="https://forms.office.com/r/a2z5bahnUC"
-              target="_blank"
-              className="font-bold"
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center space-y-10 md:space-y-0">
+            <button
+              className="px-6 py-3.5 text-black-100 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg"
+              type="button"
             >
-              Register Now
-            </Link>
-          </button>
+              <Link
+                href="https://forms.office.com/r/a2z5bahnUC"
+                target="_blank"
+                className="font-bold"
+              >
+                Register Now
+              </Link>
+            </button>
+            <button>
+              <a
+                href="/previous-events"
+                className="text-white bg-pink-700 hover:bg-pink-500 focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-pink-700 dark:hover:bg-pink-500 focus:outline-none dark:focus:ring-pink-800"
+              >
+                View Past Events
+              </a>
+            </button>
+          </div>
+
           <br />
           <br />
         </div>
       </>
     ),
     badge: "Ongoing",
-    image: "/collaboration.jpg",
+    image: "/iotron2.png",
     badgeclassName:
       "bg-green-900 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-[#90EE90]",
-  },
-  {
-    title: "XMBLE",
-    description: (
-      <>
-        <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          About{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-            XMBLE
-          </span>{" "}
-        </h4>
-        <p className="text-md md:text-lg">
-          XMBLE is a summer event focused on advancing hardware innovation,
-          challenging students to push the boundaries of technology through
-          hands-on project development. The event begins with an opening
-          ceremony that introduces the themes, followed by team registration
-          open to students from all disciplines. Participants engage in
-          technical workshops to build skills in hardware design and prototyping
-          before entering an intensive project development phase that includes
-          regular check-ins and progress reviews. The culmination of the event
-          is Demo Day, where teams showcase their prototypes to judges and
-          attendees, followed by an award ceremony that recognizes outstanding
-          projects and innovative solutions.
-        </p>
-        <br />
-        <br />
-      </>
-    ),
-    badge: "Past Event",
-    image: "/xmble.png",
-    badgeclassName:
-      "bg-yellow-600 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-white",
-  },
-  {
-    title: "IoT NEXUS",
-    description: (
-      <>
-        <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          About{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-            IoT NEXUS
-          </span>{" "}
-        </h4>
-        <p className="text-md md:text-lg">
-          IoT NEXUS The Introduction to IoT workshop, held at NIET College, was
-          an 40-hour hands-on session for 2nd-year engineering students. The
-          event covered the fundamentals of IoT, including key components like
-          sensors, actuators, and microcontrollers. Students learned to program
-          Arduino, explored circuit simulation using Tinkercad, and developed
-          basic IoT projects. The workshop provided a practical understanding of
-          how IoT works, equipping participants with the skills to create their
-          own IoT solutions.
-        </p>
-        <br />
-        <br />
-      </>
-    ),
-    badge: "Past Event",
-    image: "/nexus.jpeg",
-    badgeclassName:
-      "bg-yellow-600 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-white",
-  },
-  {
-    title: "IoTRON",
-    description: (
-      <>
-        <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          About{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-            IoTRON
-          </span>{" "}
-        </h4>
-        <p className="text-md md:text-lg">
-          IoTRON is an annual winter event designed to foster creativity and
-          innovation among students from diverse disciplines in the field of
-          hardware development, centered around the Internet of Things (IoT).
-          The event kicks off with a workshop introducing themes, tools, and
-          technologies, followed by team formation that encourages
-          interdisciplinary collaboration. Participants gain access to
-          mentorship from academia and industry as they work on their projects
-          over several weeks. The event culminates in a final presentation where
-          teams showcase their work to a panel of judges, leading to an awards
-          ceremony that recognizes outstanding projects across various
-          categories.
-        </p>
-        <br />
-        <br />
-      </>
-    ),
-    badge: "Past Event",
-    image: "/iotron.png",
-    badgeclassName:
-      "bg-yellow-600 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-white",
   },
 ];
