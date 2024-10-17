@@ -280,18 +280,13 @@ const EventsData = [
           </div>
           <br />
           <div className="flex flex-col md:flex-row md:justify-between md:items-center space-y-10 md:space-y-0">
-            <button
-              className="px-6 py-3.5 text-black-100 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg"
-              type="button"
-            >
               <Link
                 href="https://forms.office.com/r/a2z5bahnUC"
                 target="_blank"
-                className="font-bold"
+                className=" text-center px-6 py-3.5 text-black-100 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg"
               >
                 Register Now
               </Link>
-            </button>
             <button>
               <a
                 href="/previous-events"
@@ -307,8 +302,8 @@ const EventsData = [
         </div>
       </>
     ),
-    badge: "Ongoing",
-    image: "/iotron2.png",
+    badge:"Ongoing",
+    image:"/iotron2.png",
     badgeclassName:
       "bg-green-900 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-[#90EE90]",
   },
