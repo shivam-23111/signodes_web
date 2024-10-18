@@ -336,7 +336,7 @@ const EventsData = [
       </>
     ),
     badge: "Ongoing",
-    image: "/iotron3.png",
+    image: "/iotron3.jpg",
     badgeclassName:
       "bg-green-900 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-[#90EE90]",
   },
