@@ -36,6 +36,38 @@ export default function TracingBeamDemo() {
 
 const EventsData = [
   {
+    title: "IoTRON 3.0",
+    description: (
+      <>
+        <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          About{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+            IoTRON 3.0
+          </span>{" "}
+        </h4>
+        <p className="text-lg text-justify">
+          Organized by Signodes, it is an annual themed hardware project
+          exhibition and competition that attracts participants from diverse
+          branches it empowers students to develop unique & impactful ideas and
+          showcase them to a broad audience. Focused on innovation within
+          specific themes, the event encourages students to develop IoT-based
+          solutions using key technologies such as sensors, microcontrollers,
+          and cloud platforms. Participants will showcase their projects,
+          applying real-world IoT concepts to address challenges. Winners will
+          receive exciting prizes and the opportunity to pitch their ideas at
+          higher levels, promoting creativity, technical expertise, and
+          problem-solving skills.
+        </p>
+        <br />
+        <br />
+      </>
+    ),
+    badge: "Past Event",
+    image: "/iotron2.png",
+    badgeclassName:
+      "bg-yellow-600 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-white",
+  },
+  {
     title: "XMBLE is a summer event focused on advancing hardware innovation",
     description: (
       <>

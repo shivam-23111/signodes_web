@@ -11,11 +11,12 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+
 export default function TracingBeamDemo() {
   return (
     <TracingBeam className="px-10">
       <div className="max-w-2xl mx-auto antialiased py-4 relative ">
-        {EventsData.map((item, index) => (
+        {/* {EventsData.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
             <h2 className={item.badgeclassName}>{item.badge}</h2>
 
@@ -34,14 +35,32 @@ export default function TracingBeamDemo() {
               {item.description}
             </div>
           </div>
-        ))}
+        ))} */}
+        <div className="mt-10">
+          <h3 className="text-2xl font-mono font-bold text-pink-700">
+            No Ongoing Events , Right Now
+          </h3>
+          <h4>
+            Currently, there are no ongoing events at Signodes Club. Stay tuned
+            for upcoming activities, workshops, and events designed to engage
+            and inspire students. Keep an eye on this page for future updates!
+          </h4>
+        </div>
+        <button className="mt-10">
+          <a
+            href="/previous-events"
+            className="text-white bg-pink-700 hover:bg-pink-500 focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-pink-700 dark:hover:bg-pink-500 focus:outline-none dark:focus:ring-pink-800"
+          >
+            View Past Events
+          </a>
+        </button>
       </div>
     </TracingBeam>
   );
 }
 
 const EventsData = [
-  {
+   {
     title: "IoTRON 3.0",
     description: (
       <>
@@ -205,7 +224,7 @@ const EventsData = [
                       </li>
                       <li className="text-md md:text-lg">
                         <div className="text-white font-bold text-lg">
-                          Aditte Mattoo
+                          Aditee Mattoo
                         </div>
                         <p className="text-sm md:text-base text-gray-300 italic">
                           DEPUTY HOD,CSE M.TECH-INTEGRATED
@@ -335,7 +354,7 @@ const EventsData = [
       </>
     ),
     badge: "Ongoing",
-    image: "/iotron2.png",
+    image: "/iotron3.jpg",
     badgeclassName:
       "bg-green-900 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-[#90EE90]",
   },
