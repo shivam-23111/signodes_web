@@ -1,10 +1,9 @@
 export const navItems = [
-  {name: "Home" , link: "#home"},
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Members", link: "#members" },
   { name: "Contact", link: "#contact" },
-
 ];
 
 export const gridItems = [
@@ -77,6 +76,16 @@ export const gridItems = [
   // },
 ];
 
+
+
+
+
+
+
+
+
+  // Add more coordinators as needed
+
 export const projects = [
   {
     id: 1,
@@ -86,7 +95,7 @@ export const projects = [
     // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "",
     pintitle: "ROBOTIC ARM",
-  }, 
+  },
   {
     id: 2,
     title: "Robot",

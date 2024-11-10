@@ -1,14 +1,15 @@
 import React from "react";
-
+import { FaLocationArrow } from "react-icons/fa6";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 import Link from "next/link";
+import MagicButton from "./MagicButton";
 
 const Experience = () => {
   return (
     <div className="py-10 w-full" id="members">
       <h1 className="heading">
-        Our <span className="text-purple">Cordinators</span> at{" "}
+        Our <span className="text-purple">Coordinators</span> at{" "}
         <span className="text-purple">Signodes</span>
       </h1>
 
@@ -16,19 +17,14 @@ const Experience = () => {
         {workExperience.map((card) => (
           <Button
             key={card.id}
-            //   random duration will be fun , I think , may be not
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius="1.75rem"
             style={{
-              //   add these two
-              //   you can generate the color from here https://cssgradient.io/
               background: "rgb(4,7,29)",
               backgroundColor:
                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-              // add this border radius to make it more rounded so that the moving border is more realistic
-              borderRadius: `calc(1.75rem* 0.96)`,
+              borderRadius: `calc(1.75rem * 0.96)`,
             }}
-            // remove bg-white dark:bg-slate-900
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
@@ -63,12 +59,19 @@ const Experience = () => {
           </Button>
         ))}
       </div>
+
+      {/* Centered View All Coordinators Button */}
+      <div className="flex justify-center mt-10">
+        <a href="/club_coordinators">
+          <MagicButton
+            title="View all coordinators"
+            icon={<FaLocationArrow />}
+            position="center"
+          />
+        </a>
+      </div>
     </div>
   );
 };
 
 export default Experience;
-
-
-
-{/* <a href="mailto:signodes_iot@niet.co.in" className="mb-5"></a> */}
