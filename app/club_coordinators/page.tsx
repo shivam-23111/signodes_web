@@ -21,11 +21,9 @@ interface Coordinator {
   branch: string;
   year: string;
 }
-
  interface CoordinatorsData {
   [domain: string]: Coordinator[];
 }
-
 const ClubCoordinators: React.FC = () => {
   const [data, setData] = useState<CoordinatorsData | null>(null);
 
@@ -119,5 +117,4 @@ const ClubCoordinators: React.FC = () => {
     </div>
   );
 };
-
 export default ClubCoordinators;
