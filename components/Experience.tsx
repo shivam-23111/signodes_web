@@ -2,7 +2,6 @@ import React from "react";
 import { FaLocationArrow } from "react-icons/fa6";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
-import Link from "next/link";
 import MagicButton from "./MagicButton";
 
 const Experience = () => {
@@ -60,13 +59,12 @@ const Experience = () => {
         ))}
       </div>
 
-      {/* Centered View All Coordinators Button */}
       <div className="flex justify-center mt-10">
         <a href="/club_coordinators">
           <MagicButton
             title="View all coordinators"
             icon={<FaLocationArrow />}
-            position="center"
+            position="right"
           />
         </a>
       </div>
