@@ -4,7 +4,7 @@ export const coordinatorsData = {
     {
       id: 4,
       name: "Chetan Chauhan",
-      position: "Embedded Systems Engineer",
+      position: "Hardware Coordinaor",
       bio: "Passionate about building efficient hardware solutions.",
       photo: "/chetan chauhan.jpg",
       socials: {
@@ -18,8 +18,8 @@ export const coordinatorsData = {
     {
       id: 5,
       name: "Aditya Shekhar Das",
-      position: "Lead Hardware Engineer",
-      bio: "Expert in circuit design and embedded systems.",
+      position: "Hardware Coordinaor",
+      bio: "Managing IoT hardware systems and upgrades at Signodes",
       photo: "/aditya shekhar das.jpeg",
       socials: {
         linkedin: "https://linkedin.com/in/alicecooper",
@@ -32,8 +32,8 @@ export const coordinatorsData = {
     {
       id: 6,
       name: "Gaurav Gupta",
-      position: "Embedded Systems Engineer",
-      bio: "Passionate about building efficient hardware solutions.",
+      position: "Hardware Coordinaor",
+      bio: "Pioneering hardware and IOT solutions for Signodes",
       photo: "/gaurav gupta.jpeg",
       socials: {
         linkedin:
@@ -47,8 +47,8 @@ export const coordinatorsData = {
     {
       id: 7,
       name: "Ankur Anand",
-      position: "Hardware Specialist",
-      bio: "Skilled in PCB design and testing.",
+      position: "Hardware Coordinaor",
+      bio: "Overseeing IoT hardware projects and enhancements",
       photo: "/ankur anand.jpeg",
       socials: {
         linkedin: " https://www.linkedin.com/in/ankur-anand-270a96273?utm_",
@@ -61,8 +61,8 @@ export const coordinatorsData = {
     {
       id: 8,
       name: "Pratyush Sachan",
-      position: "IoT Hardware Engineer",
-      bio: "Building smart devices for the future.",
+      position: "Hardware Coordinaor",
+      bio: "Driving IoT hardware innovation at Signodes.",
       photo: "/pratyush sachan.jpeg",
       socials: {
         linkedin:
@@ -79,7 +79,7 @@ export const coordinatorsData = {
     {
       id: 1,
       name: "Shivam Tiwari",
-      position: "Lead Web Developer",
+      position: "Web Coordinator",
       bio: "Passionate about creating seamless web experiences.",
       photo: "/Shivam Tiwari.jpeg",
       socials: {
@@ -93,7 +93,7 @@ export const coordinatorsData = {
     {
       id: 2,
       name: "Anshika Jaiswal",
-      position: "Senior Web Developer",
+      position: "Web Coordinator",
       bio: "Specialized in frontend technologies and responsive design.",
       photo: "/anshika jaiswal.jpg",
       socials: {
@@ -124,7 +124,7 @@ export const coordinatorsData = {
     {
       id: 9,
       name: "Shashank Kumar Acharya",
-      position: "App Developer",
+      position: "App Coordinator",
       bio: "passionate about app development in flutter",
       photo: "/shashank kumar acharya.png",
       socials: {
@@ -153,27 +153,14 @@ export const coordinatorsData = {
       branch: "CSE AIML",
       year: "2nd Year",
     },
-    {
-      id: 25,
-      name: "Raushan Kumar",
-      position: "AIML coordinator",
-      bio: "passionate about trending AI uses and ML models",
-      photo: "/raushan kumar.jpg",
-      socials: {
-        linkedin: "https://linkedin.com/in/sophialee",
-        github: "https://github.com/sophialee",
-        email: "sophia.lee@example.com",
-      },
-      branch: "CSE AIML",
-      year: "3rd Year",
-    },
+   
   ],
 
   "Technical Documentation": [
     {
       id: 13,
       name: "Kumal Kr Dubey",
-      position: "Technical Documentation And Product Designing",
+      position: "Technical Documentation And Product Designing Coordinator",
       bio: "Passionate about writing clear and concise technical documentation.",
       photo: "/kunal kr dubey.jpg",
       socials: {
@@ -220,13 +207,14 @@ export const coordinatorsData = {
     {
       id: 22,
       name: "Manas Sharma",
-      position: "Conteneditort creator and video ",
-      bio: "Event Manager.",
+      position: "Event Coordinator ",
+      bio: "Organizing and coordinating events to create impactful experiences.",
       photo: "/manas sharma.jpg",
       socials: {
-        linkedin: "https://www.linkedin.com/in/shlok-singh-5182b0203?utm_",
-        github: "https://github.com/Dr-doom0808",
-        email: "shloksingh528128@gmail.com ",
+        linkedin:
+          "https://www.linkedin.com/in/manas-sharma-082671315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: "https://github.com/Itsuniquemee",
+        email: " officialmanas7565@gmail.com",
       },
       branch: "CSE-IoT",
       year: "2nd Year",
@@ -236,8 +224,8 @@ export const coordinatorsData = {
     {
       id: 17,
       name: "Arpita Jaiswal",
-      position: "Event Coordinator",
-      bio: "Managing and organizing events with precision and creativity.",
+      position: "Social Media Manager",
+      bio: "Creating and executing strategies to boost social media engagement..",
       photo: "/arpita jaiswal.jpg",
       socials: {
         linkedin:
@@ -250,16 +238,17 @@ export const coordinatorsData = {
     },
     {
       id: 17,
-      name: "Vaishnavi Singh",
-      position: "Event Coordinator",
-      bio: "Managing and organizing events with precision and creativity.",
-      photo: "/vaishnavi singh.jpg",
+      name: "Vaishnawi Singh",
+      position: "Social Media Manager",
+      bio: "Enhancing social media engagement through creative content and campaigns",
+      photo: "/vaishnawi singh.jpg",
       socials: {
-        linkedin: "https://linkedin.com/in/charlottemoore",
-        github: "https://github.com/charlottemoore",
-        email: "kashish.patel@example.com",
+        linkedin:
+          "https://www.linkedin.com/in/vaishnawi-singh-883372288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: "https://github.com/Vaishnawi111",
+        email: "",
       },
-      branch: "CSE (IoT)",
+      branch: "CS",
       year: "2nd Year",
     },
   ],
