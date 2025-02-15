@@ -26,7 +26,7 @@ const Hero = () => {
               <div className="flex space-x-4">
                 <div className="w-28 md:w-28 p-2 flex items-center justify-center rounded-2xl ">
                   <Image
-                    src="/logo2.png"
+                    src="/logo5.png"
                     alt="Image 1"
                     width={300}
                     height={300}
@@ -35,7 +35,7 @@ const Hero = () => {
                 </div>
                 <div className="w-28 md:w-28 bg-white p-2 flex items-center justify-center rounded-2xl">
                   <Image
-                    src="/logo.png"
+                    src="/logo3.png"
                     alt="Image 2"
                     width={300}
                     height={300}

@@ -1,10 +1,9 @@
 export const navItems = [
-  {name: "Home" , link: "#home"},
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Members", link: "#members" },
   { name: "Contact", link: "#contact" },
-
 ];
 
 export const gridItems = [
@@ -26,7 +25,7 @@ export const gridItems = [
     description: "Everyone to shine",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
-    titleClassName: "justify-start  text-purple",
+    titleClassName: "justify-start text-purple",
     img: "/grid.svg",
     spareImg: "",
   },
@@ -36,7 +35,7 @@ export const gridItems = [
     description: "technologies and learning",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
-    titleClassName: "justify-center  text-purple",
+    titleClassName: "justify-center text-purple",
     img: "/grid.svg",
     spareImg: "",
   },
@@ -47,7 +46,7 @@ export const gridItems = [
       "Our members have won 10+ hackathons,showcasing their potential,we empower students to create smart solutions for real-world challenges",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName: "justify-start  text-purple",
+    titleClassName: "justify-start text-purple",
     img: "/grid.svg",
     // /b4.svg
     spareImg: "",
@@ -61,7 +60,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName:
-      "justify-center md:justify-start lg:justify-center  text-purple",
+      "justify-center md:justify-start lg:justify-center text-purple",
     img: "",
     spareImg: "/grid.svg",
   },
@@ -77,6 +76,16 @@ export const gridItems = [
   // },
 ];
 
+
+
+
+
+
+
+
+
+  // Add more coordinators as needed
+
 export const projects = [
   {
     id: 1,
@@ -86,7 +95,7 @@ export const projects = [
     // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "",
     pintitle: "ROBOTIC ARM",
-  }, 
+  },
   {
     id: 2,
     title: "Robot",

@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "@/components/ui/tracing-beam";
+
 export default function TracingBeamDemo() {
   return (
     <TracingBeam className="px-10">
@@ -62,7 +63,7 @@ const EventsData = [
       </>
     ),
     badge: "Past Event",
-    image: "/iotron3.jpg",
+    image: "/iotron2.png",
     badgeclassName:
       "bg-yellow-600 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-white",
   },
