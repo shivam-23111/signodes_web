@@ -63,7 +63,7 @@ const EventsData = [
       </>
     ),
     badge: "Past Event",
-    image: "/iotron2.png",
+    image: "/iotron3.jpg",
     badgeclassName:
       "bg-yellow-600 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-white",
   },
