@@ -225,7 +225,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Prashant Kumar Signh",
-    desc: "IOT ENGINEER AT EPVI , INTERN AT FirstThing , PRESIDENT AT SIGNODES CLUB ,  EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4rd-year)",
+    desc: "IOT ENGINEER AT EPVI , INTERN AT FirstThing , PRESIDENT AT SIGNODES CLUB ,  EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4th-year)",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "prashant.jpeg",
     socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
@@ -238,7 +238,7 @@ export const workExperience = [
   {
     id: 4,
     title: "Amiya Krishan Gupta",
-    desc: "INTERN AT BRAINWAVE TECHNOLOGIES , HARDWARE HEAD AT SIGNODES CLUB , EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , AWARD WINNING INNOVATOR , CSE-IOT (4rd-year)",
+    desc: "INTERN AT BRAINWAVE TECHNOLOGIES , HARDWARE HEAD AT SIGNODES CLUB , EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , AWARD WINNING INNOVATOR , CSE-IOT (4th-year)",
     className: "md:col-span-2",
     thumbnail: "amy.jpeg",
     socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
@@ -272,7 +272,7 @@ export const workExperience = [
   {
     id: 7,
     title: "Aryan Srivastav",
-    desc: "SOCIAL MEDIA HEAD AT SIGNODES , PRESIDENT AT MEGAPIXELS DESIGNER , CSE-IOT (4rd-year)",
+    desc: "SOCIAL MEDIA HEAD AT SIGNODES , PRESIDENT AT MEGAPIXELS DESIGNER , CSE-IOT (4th-year)",
     className: "md:col-span-2",
     thumbnail: "aryan.jpeg",
     socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
