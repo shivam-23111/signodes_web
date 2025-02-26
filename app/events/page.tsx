@@ -355,10 +355,7 @@ const EventsData = [
                       <li className="text-md md:text-lg text-white">
                         Time: 9:30 AM Onwards
                         </li>
-                      <li className=" text-md md:text-lg text-white ">
-                            Time:-9:30 AM Onwards
-
-                      </li>
+                      
                       <li className="text-md md:text-lg text-white">
                         Date: 08 March 2025 (Tentative)
                       </li>
