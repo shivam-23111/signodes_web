@@ -283,7 +283,7 @@ const EventsData = [
                   <div>
                     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
                       <li className=" text-md md:text-lg text-white ">
-                        tIM:-9:30 AM Onwards
+                            Time:-9:30 AM Onwards
                       </li>
                       <li className=" text-md md:text-lg text-white">
                         Date:-TBD
