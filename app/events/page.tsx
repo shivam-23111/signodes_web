@@ -107,7 +107,7 @@ const EventsData = [
                       >
                         <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                       </svg>
-                      Register for the event.
+                      First Come First Serve
                     </li>
                   </ul>
                 </AccordionContent>
@@ -170,7 +170,7 @@ const EventsData = [
                   <div>
                     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
                       <li className=" text-md md:text-lg text-white ">
-                        Introduction to Electronic Components
+                        Introduction to basic Electronic Components for IOT
                       </li>
                       <li className=" text-md md:text-lg text-white">
                         Hands on Project Demonstration
@@ -192,13 +192,6 @@ const EventsData = [
                 <AccordionContent>
                   <div>
                     <ul className=" space-y-1 text-pink-300 ">
-                      <li className=" text-md md:text-lg text-white">
-                        🥇{" "}
-                        <span className="text-[#85a7ff]">
-                          certificate of achievement
-                        </span>{" "}
-                        will be awarded to the winner.
-                      </li>
                       <li className=" text-md md:text-lg text-white">
                         🥇Certificates of participation will be provided to
                         everyone.
@@ -235,39 +228,7 @@ const EventsData = [
                           DEPUTY HOD,CSE M.TECH-INTEGRATED
                         </p>
                       </li>
-                      <li className="text-md md:text-lg">
-                        <div className="text-white font-bold text-lg">
-                          Ms. Ibtesaam Rais
-                        </div>
-                        <p className="text-sm md:text-base text-gray-300 italic">
-                          ASSISTANT PROFESSOR,IoT
-                        </p>
-                      </li>
-                      <li className="text-md md:text-lg">
-                        <div className="text-white font-bold text-lg">
-                          Mr. Jaya Nidhi Vashishtha
-                        </div>
-                        <p className="text-sm md:text-base text-gray-300 italic">
-                          ASSISTANT PROFESSOR,IoT
-                        </p>
-                      </li>
-                      <li className="text-md md:text-lg">
-                        <div className="text-white font-bold text-lg">
-                          Mr. Amit Kumar
-                        </div>
-                        <p className="text-sm md:text-base text-gray-300 italic">
-                          ASSISTANT PROFESSOR,IoT
-                        </p>
-                      </li>
-                      <li className="text-md md:text-lg">
-                        <div className="text-white font-bold text-lg">
-                          Ms. Swarnima Roy
-                        </div>
-                        <p className="text-sm md:text-base text-gray-300 italic">
-                          ASSISTANT PROFESSOR,ECE
-                        </p>
-                      </li>
-                    </ul>
+                      </ul>
                   </div>
                 </AccordionContent>
               </AccordionItem>
@@ -296,7 +257,7 @@ const EventsData = [
                           Sumesh Sarkar
                         </div>
                         <p className="text-sm md:text-base text-gray-300 italic">
-                          Vice-President
+                          Vice-President(9557028599)
                         </p>
                       </li>
                       <li className="text-md md:text-lg">
@@ -304,7 +265,7 @@ const EventsData = [
                           Rishi Ranjan
                         </div>
                         <p className="text-sm md:text-base text-gray-300 italic">
-                          Vice-President
+                          Vice-President(8580149535)
                         </p>
                       </li>
                     </ul>
@@ -322,10 +283,10 @@ const EventsData = [
                   <div>
                     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
                       <li className=" text-md md:text-lg text-white ">
-                        9:30 AM Onwards
+                        tIM:-9:30 AM Onwards
                       </li>
                       <li className=" text-md md:text-lg text-white">
-                        1 March 2025
+                        Date:-TBD
                       </li>
                     </ul>
                   </div>
@@ -342,11 +303,9 @@ const EventsData = [
                   <div>
                     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
                       <li className=" text-md md:text-lg text-white ">
-                        Idea Lab, Ground Floor, B Block
+                       TBD
                       </li>
-                      <li className=" text-md md:text-lg text-white">
-                        1 March,2025
-                      </li>
+                      
                     </ul>
                   </div>
                 </AccordionContent>

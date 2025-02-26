@@ -55,7 +55,7 @@ const Home = () => {
             <img
               src="/NEXUS 2.0.png"
               alt="Event Poster"
-              className="w-full h-auto rounded-lg cursor-pointer shadow-md hover:shadow-purple-500/50 transition-all duration-300"
+              className="w-full max-h-96 h-auto rounded-lg cursor-pointer shadow-md hover:shadow-purple-500/50 transition-all duration-300"
               onClick={() => router.push("/events")}
             />
             <div className="flex justify-center mt-10">
