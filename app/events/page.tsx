@@ -60,7 +60,7 @@ const EventsData = [
               NEXUS 2.0
             </span>{" "}
           </h4>
-          <p className="text-md md:text-lg">
+          <p className="text-md md:text-lg text-justify">
             Signodes Club proudly presents NEXUS 2.0, a hands-on workshop crafted to empower participants with foundational skills in basic electronics and IoT components! Whether you’re a beginner eager to dive into the world of circuits or a tech enthusiast looking to master Internet of Things (IoT) essentials, this event is your gateway to practical learning. At NEXUS 2.0, we’re breaking down the fundamentals of electronics—from resistors and LEDs to sensors and microcontrollers—while introducing you to the building blocks of IoT systems. Through interactive training sessions and real-world demonstrations, you’ll learn how to design, connect, and control electronic circuits and IoT devices. This workshop is your chance to gain hands-on experience, spark your creativity, and lay the groundwork for a future in innovative technologies!
           </p>
           <div>
@@ -354,8 +354,7 @@ const EventsData = [
                     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
                       <li className="text-md md:text-lg text-white">
                         Time: 9:30 AM Onwards
-                        </li>
-                      
+                      </li>
                       <li className="text-md md:text-lg text-white">
                         Date: 08 March 2025 (Tentative)
                       </li>
