@@ -36,6 +36,40 @@ export default function TracingBeamDemo() {
 
 const EventsData = [
   {
+    title: "NEXUS 2.0",
+    description: (
+      <>
+        <h4 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          About{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+            NEXUS 2.0
+          </span>{" "}
+        </h4>
+        <p className="text-lg text-justify">
+          Signodes Club proudly presents NEXUS 2.0, a hands-on workshop crafted
+          to empower participants with foundational skills in basic electronics
+          and IoT components! Whether you’re a beginner eager to dive into the
+          world of circuits or a tech enthusiast looking to master Internet of
+          Things (IoT) essentials, this event is your gateway to practical
+          learning. At NEXUS 2.0, we’re breaking down the fundamentals of
+          electronics—from resistors and LEDs to sensors and
+          microcontrollers—while introducing you to the building blocks of IoT
+          systems. Through interactive training sessions and real-world
+          demonstrations, you’ll learn how to design, connect, and control
+          electronic circuits and IoT devices. This workshop is your chance to
+          gain hands-on experience, spark your creativity, and lay the
+          groundwork for a future in innovative technologies!
+        </p>
+        <br />
+        <br />
+      </>
+    ),
+    badge: "Past Event",
+    image: "/NEXUS 2.0.jpg",
+    badgeclassName:
+      "bg-yellow-600 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-white",
+  },
+  {
     title: "IoTRON 3.0",
     description: (
       <>

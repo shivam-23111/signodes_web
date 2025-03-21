@@ -37,31 +37,46 @@ const Home = () => {
         <Footer />
       </div>
 
-      {/* Event Poster Popup */}
+      {/* New Robosoccer Event Popup */}
       {showPopup && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.3 }}
-            className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg p-6 max-w-2xl w-full relative shadow-lg border border-purple-600"
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            className="bg-gradient-to-br from-gray-900 via-cyan-900 to-black rounded-xl p-8 max-w-2xl w-full relative shadow-2xl border border-cyan-400"
           >
+            {/* Close Button */}
             <button
-              className="absolute top-2 right-2 text-xl font-bold text-gray-300 hover:text-white transition duration-300"
+              className="absolute top-3 right-3 text-2xl font-bold text-cyan-300 hover:text-cyan-100 transition duration-300"
               onClick={() => setShowPopup(false)}
             >
               ✕
             </button>
+
+            {/* Robosoccer Poster */}
             <img
-              src="/NEXUS 2.0.png"
-              alt="Event Poster"
-              className="w-full max-h-96 h-auto rounded-lg cursor-pointer shadow-md hover:shadow-purple-500/50 transition-all duration-300"
+              src="/Robo Soccer.png" // Apna poster yahan add kar
+              alt="Signodes Robosoccer Event"
+              className="w-full max-h-80 h-auto rounded-lg cursor-pointer shadow-lg hover:shadow-cyan-500/50 transition-all duration-300"
               onClick={() => router.push("/events")}
             />
-            <div className="flex justify-center mt-10">
+
+            {/* Event Title */}
+            <h2 className="text-2xl font-bold text-center mt-6 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+              Signodes Robosoccer 2025
+            </h2>
+
+            {/* Event Description */}
+            <p className="text-center text-gray-300 mt-2 text-sm">
+              Join the ultimate robotic showdown at Signodes Techfest! Compete, score, and dominate the leaderboard.
+            </p>
+
+            {/* Register Button */}
+            <div className="flex justify-center mt-6">
               <a href="/events">
                 <MagicButton
-                  title="Register Now"
+                  title="Join the Battle"
                   icon={<FaLocationArrow />}
                   position="right"
                 />
