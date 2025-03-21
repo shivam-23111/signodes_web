@@ -65,7 +65,7 @@ const EventsData = [
       </>
     ),
     badge: "Past Event",
-    image: "/NEXUS 2.0.jpg",
+    image: "/NEXUS 2.0.png",
     badgeclassName:
       "bg-yellow-600 text-white rounded-full text-md w-fit px-4 py-1 mb-4 border border-2 border-white",
   },
