@@ -194,7 +194,7 @@ const EventsData = [
                   <div>
                     <ul className=" space-y-1 text-pink-300 ">
                       <li className=" text-md md:text-lg text-white">
-                        🥇{" "}
+                        
                         <span className="text-[#85a7ff]">
                           Remote-controlled (controllers provided)
                         </span>{" "}
@@ -214,7 +214,7 @@ const EventsData = [
                   <div>
                     <ul className=" space-y-1 text-pink-300 ">
                       <li className=" text-md md:text-lg text-white">
-                        🥇{" "}
+                       
                         <span className="text-[#85a7ff]">
                           Open to all students (individual participation)
                         </span>{" "}
